@@ -35,6 +35,7 @@ module.exports = {
   },
   // 自定义webpack配置
   configureWebpack: {
+    mode: 'development',
     resolve: {
       alias: {
         '@': resolve('src'),
